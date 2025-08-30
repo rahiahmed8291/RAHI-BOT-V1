@@ -9,7 +9,7 @@ module.exports = {
         description: 'Ephoto360 text effect generator',
         categories: 'image',
         usages: [`${global.config.PREFIX}ephoto`],
-        credit: 'Developed by Mohammad Nayan'
+        credit: 'Developed by Mohammad Rahi'
     },
 
     urls: [
@@ -101,7 +101,7 @@ module.exports = {
             msg += `${i + 1}. ${translated}\n`;
         }
 
-        msg += `\n👉 Reply with: [number] [your name]\nExample: 1 Nayan`;
+        msg += `\n👉 Reply with: [number] [your name]\nExample: 1 Rahi`;
 
         const sent = await api.sendMessage(event.threadId, { text: msg }, { quoted: message });
 
